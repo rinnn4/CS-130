@@ -5,7 +5,7 @@
 
 header{
     padding-top: 20px;
-    background-color: azure;
+    background-color: rgb(229, 177, 200);
 }
 
 body {
@@ -22,19 +22,22 @@ p, li {
 #tutorials {
     background-color: #c8e1c1;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 400px;
+    flex-grow: 2;
 }
 
 #homework {
     background-color: #b4cacc;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 400px;
+    flex-grow: 2;
 }
 #inspiration {
     background-color: #dfcea8;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 400px;
     padding-left:30px ;
+    flex-grow: 2;
 }
 .container {
     display: flex;    
