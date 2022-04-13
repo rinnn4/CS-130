@@ -3,9 +3,11 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(165, 153, 233);
 }
 header, section {
     padding: 20px;
@@ -15,7 +17,7 @@ p, li {
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #dfcea8;
     padding-top: 40px;
     padding-bottom: 40px;
 }
