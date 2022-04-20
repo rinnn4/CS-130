@@ -1,0 +1,82 @@
+body{
+   margin: 0;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 0.2fr 1fr 1fr;
+   grid-template-areas: 
+      "a . b b"
+      "c d e f"
+      "g g g f"; 
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+      padding: 20px;
+
+   min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+   /* tablet layout here */
+}
+
+
+.menu1 {
+   grid-area: a;
+   background: rgb(230, 164, 164);
+}
+.menu2 {
+   grid-area: b;
+   background: rgb(224, 167, 223);
+}
+
+
+.card1 {
+   grid-area: c;
+   background: rgb(180, 153, 170);
+}
+.card2 {
+   grid-area: d;
+   background: rgb(176, 147, 94);
+}
+.card3 {
+   grid-area: e;
+   background: rgb(206, 214, 156);
+}
+.main {
+   grid-area: f;
+   background: rgb(104, 162, 164);
+}
+.aside {
+   grid-area: g;
+   background: rgb(125, 157, 127);
+}
+
+
+@media (max-width: 1024px) {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 0.2fr 0.2fr 1fr 1fr 0.5fr;
+   grid-template-areas: 
+      "a b "
+      "f f"
+      "c d"
+      "e e"
+      "g g";
+
+
+@media (max-width: 600px) {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1 fr 1fr 0.5fr;
+   grid-template-areas: 
+      "a . "
+      "b b"
+      "c c"
+      "d d"
+      "e e"
+      "g g"
+      "f f";
