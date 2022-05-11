@@ -54,11 +54,11 @@ const showImage = (ev) => {
 	  } else {
 		ind = ind+ 1;
 	  }
-    
+
 	//console.log("mommy", ind);//debugging
 	document.querySelector(".featured_image").style.backgroundImage = `url(${images[ind]})`;
   };
-//function called ONCLICK for previous biutton
+//function called ONCLICK for previous button
   const prevv = (ev) => {
 	
 
