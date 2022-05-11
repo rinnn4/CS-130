@@ -14,8 +14,6 @@
  * 3. If you get to the end, start at the beginning. 
  * 
  * 4. If you get to the beginning, loop around to the end.
- * 
- * 
  */
 
 const images = [
@@ -56,12 +54,15 @@ const showImage = (ev) => {
 	  } else {
 		ind = ind+ 1;
 	  }
+    
 	//console.log("mommy", ind);//debugging
 	document.querySelector(".featured_image").style.backgroundImage = `url(${images[ind]})`;
   };
 //function called ONCLICK for previous biutton
   const prevv = (ev) => {
 	
+
+
 	if (ind  -1 < 0) {
 		ind = images.length - 1;
 	  } else {
@@ -71,10 +72,13 @@ const showImage = (ev) => {
   };
   
   
+
   const imageElements = document.querySelectorAll(".image");
   for (const elem of imageElements) {
 	elem.onclick = showImage;
   }
+
+
   //need to set it to 0 or else there will be an "index unknown error"
   ind = 0
   document.querySelector(".next").onclick = nextt;
