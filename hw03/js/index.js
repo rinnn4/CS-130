@@ -3,7 +3,6 @@
  * -------------------------------------
  * DOM Manipulation / Traversal Activity
  * -------------------------------------
- * 
  * 1. Create and attach an event handler (function) to each ".image" 
  * element so that when the ".image" element is clicked, the corresponding 
  * image loads in the .featured image element.
@@ -78,6 +77,7 @@ const showImage = (ev) => {
 	elem.onclick = showImage;
   }
 
+  
 
   //need to set it to 0 or else there will be an "index unknown error"
   ind = 0
