@@ -1,0 +1,113 @@
+
+
+* {
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    font-family: Raleway
+}
+.navbar {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 74, 144);
+    font-size: medium;
+}
+
+.navbar a{
+    margin-right: 15px;
+}
+
+.navbar strong {
+    margin-right: 15px;
+}
+
+.navbarn {
+    padding: 20px;
+    background-color: rgb(203, 227, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 74, 144)
+}
+.navbarn a{
+    margin-right: 15px;
+}
+
+.navbarn strong {
+    margin-right: 15px;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px 0px 20px;
+    background: rgb(203, 227, 250);
+}
+header {
+    background-color: rgb(0, 74, 144);
+    /* background-color: #F1F3F4; */
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    top: 135px;
+    left: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #888;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+main div {
+    width: calc(25% - 20px);
+    margin: 20px 20px 0px 0px;
+    padding: 8px;
+    border: solid 1px #FFF;
+    background: #FFF;
+}
+main div:hover {
+    border: solid 1px #999;
+}
+
+main div img {
+    width: 100%;
+}
+
+
+main div h2 {
+    margin: 6px 0px 25px 0px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 1200px) {
+    main div {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 900px) {
+    main div {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    main div {
+        width: 100%;
+        margin: 0px 10px 20px 0px;
+    }
+}

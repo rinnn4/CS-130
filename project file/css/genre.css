@@ -1,0 +1,73 @@
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    align-items: center;
+	justify-content: center;
+}
+
+nav{
+    width: 100%;
+    font-family: Raleway;
+}
+.navbar {
+    padding: 20px;
+    background-color: rgb(203, 227, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 74, 144);
+    font-size: medium;
+}
+
+.navbar a{
+    margin-right: 15px;
+}
+
+.navbar strong {
+    margin-right: 15px;
+}
+
+.navbarn {
+    padding: 20px;
+    background-color: rgb(195, 226, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 74, 144)
+}
+.navbarn a{
+    margin-right: 15px;
+}
+
+.navbarn strong {
+    margin-right: 15px;
+}
+body {
+    height:100%;
+    align-content: center;
+    margin: 0;
+    padding:0;
+    background-color: rgb(203, 227, 250);
+    color: rgb(0, 74, 144);
+    font-family: Raleway;
+}
+body * {
+    box-sizing: border-box;
+    /* border: solid 1px #000; */
+}
+
+main {
+    background-color: rgb(203, 227, 250);
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 20vh;
+    grid-template-areas:
+      "top"
+      "bottom";
+    height: 100vh;
+    width: 100vw;
+	justify-content: center;
+	align-items: center;
+    font-family: Raleway;    
+}
